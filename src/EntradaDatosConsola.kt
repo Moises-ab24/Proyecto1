@@ -8,10 +8,10 @@ fun main(){
     val valor1= readln().toInt()
     print("Ingrese segundo valor: ")
     val valor2= readln().toInt()
-    val suma= valor1 + valor2
-    println("La suma de $valor1 + $valor2 es $suma")
-    val producto= valor1 * valor2
-    println("El producto de $valor1 * $valor2 es $producto")
+    val Suma= valor1 + valor2
+    println("La suma de $valor1 + $valor2 es $Suma")
+    val Producto= valor1 * valor2
+    println("El producto de $valor1 * $valor2 es $Producto")
     //readln() captura la entrada del teclado
     //.toInt() convierte los datos de entrada a tipo numerico
 
@@ -45,17 +45,17 @@ fun main(){
     informar la suma de los dos primeros y el producto del tercero y el cuarto.
      */
     print("Ingrese primer valor: ")
-    val valor1= readln().toInt()
+    val val1= readln().toInt()
     print("Ingrese segundo valor: ")
-    val valor2= readln().toInt()
+    val val2= readln().toInt()
     print("Ingrese tercer valor: ")
-    val valor3= readln().toInt()
+    val val3= readln().toInt()
     print("Ingrese cuarto valor: ")
-    val valor4= readln().toInt()
+    val val4= readln().toInt()
     val suma= valor1 + valor2
-    val producto= valor3 * valor4
-    println("La suma de $valor1 + $valor2 es $suma")
-    println("El producto de $valor3 * $valor4 es $producto")
+    val producto= val3 * val4
+    println("La suma de $val1 + $val2 es $suma")
+    println("El producto de $val3 * $val4 es $producto")
 
     // Problema 5
     /*
@@ -63,15 +63,15 @@ fun main(){
     informar su suma y promedio.
      */
     print("Ingrese primer valor: ")
-    val valor1= readln().toInt()
+    val Valor1= readln().toInt()
     print("Ingrese segundo valor: ")
-    val valor2= readln().toInt()
+    val Valor2= readln().toInt()
     print("Ingrese tercer valor: ")
-    val valor3= readln().toInt()
+    val Valor3= readln().toInt()
     print("Ingrese cuarto valor: ")
-    val valor4= readln().toInt()
-    val suma= valor1 + valor2 + valor3 + valor4
-    val producto= valor1 * valor2 * valor3 * valor4
-    println("La suma de $valor1 + $valor2 + $valor3 + $valor4 es $suma")
-    println("El producto de $valor1 * $valor2 * $valor3 * $valor4 es $producto")
+    val Valor4= readln().toInt()
+    val sum= Valor1 + Valor2 + Valor3 + Valor4
+    val product= Valor1 * Valor2 * Valor3 * Valor4
+    println("La suma de $Valor1 + $Valor2 + $Valor3 + $Valor4 es $sum")
+    println("El producto de $Valor1 * $Valor2 * $Valor3 * $Valor4 es $product")
 }
