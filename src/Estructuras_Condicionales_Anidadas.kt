@@ -36,26 +36,28 @@ fun main (){
     print("Estado del alumno:$estado")
      */
 
+
     /*
     Problema propuesto 1
     Se cargan por teclado tres números distintos. Mostrar por pantalla el mayor de
     ellos.
      */
-
+    /*
     print("Ingrese primer valor:")
     val valor1 = readln().toInt()
     print("Ingrese segundo valor:")
     val valor2 = readln().toInt()
     print("Ingrese tercer valor:")
     val valor3 = readln().toInt()
-
-    if (valor1 > valor2)
-        print("El mayor valor es $valor1")
+    if (valor3 > valor2)
+        print("El mayor valor es $valor3")
     else
-        if (valor2 > valor3)
+        if (valor2 > valor1)
         print("El mayor valor es $valor2")
     else
-        print("El mayor valor es $valor3")
+        print("El mayor valor es $valor1")
+    */
+
 
     /*
     Problema propuesto 3
@@ -66,6 +68,9 @@ fun main (){
     /*
     print("Ingrese un numero del 1 al 999:")
     val num: Int = readln().toInt()
+    if(num > 999)
+        print("ERROR, El numero de cifras es mayor")
+    else
     if(num > 99)
         print("El numero tiene 3 cifras")
     else
@@ -75,4 +80,29 @@ fun main (){
             print("El numero tiene 1 cifra")
     */
 
+
+    /*
+    Problema propuesto 4
+    Un postulante a un empleo, realiza un test de capacitación, se obtuvo la
+    siguiente información: cantidad total de preguntas que se le realizaron y la
+    cantidad de preguntas que contestó correctamente. Se pide confeccionar un
+    programa que ingrese los dos datos por teclado e informe el nivel del mismo
+    según el porcentaje de respuestas correctas que ha obtenido, y sabiendo los niveles.
+     */
+    /*
+    print("Ingrese el numero de preguntas que realizo:")
+    val preguntastotal : Int = readln().toInt()
+    print("Ingrese el numero de preguntas contestadas correctamente:")
+    val preguntasbuenas : Int = readln().toInt()
+    val porcentaje: Float = preguntasbuenas/preguntastotal.toFloat()
+    println("El porcentaje es: $porcentaje")
+        if(porcentaje >= 0.9)
+        print("Nivel màximo logrado")
+        if(porcentaje >= 0.75 && porcentaje < 0.9)
+            print("Nivel medio logrado")
+        if(porcentaje >= 0.5 && porcentaje < 0.75)
+            print("Nivel regular logrado")
+    else
+        print("Fuera de nivel")
+    */
 }
