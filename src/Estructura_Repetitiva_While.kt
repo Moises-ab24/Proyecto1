@@ -75,7 +75,7 @@ fun main() {
     var notasmin = 0
     while (x <= 10) {
         print("Ingrese la nota del estudiante:")
-        val nota: Int = readln().toInt()
+        val nota: Double = readln().toDouble()
         x = x + 1
         if(nota >= 7 && nota < 10)
             notasmax = notasmax + 1
