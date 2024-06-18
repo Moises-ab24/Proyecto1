@@ -88,12 +88,7 @@ fun main (){
         if (num < 9999){
             sum+=num }
     }while(num != 9999)
-        if (sum != 9999) {
             println("El valor acumulado es $sum")
-        }
-        else
-            if(sum == 9999) {
-        println("No se ingresaron datos") }
         if(sum == 0){
             println("El valor acumuldo es 0") }
         else
@@ -102,7 +97,7 @@ fun main (){
         else
                 if(sum < 0) {
                 println("El valor acumulado es menor a 0") }
-    */
+     */
 
     /*
     En un banco se procesan datos de las cuentas corrientes de sus clientes. De
@@ -114,15 +109,26 @@ fun main (){
     sabiendo que.
     b) La suma total de los saldos acreedores.
      */
-    var sum = 0
+    /*
+    var sumacred = 0.0
     do {
-        println("Ingrese un numero de cuenta: ")
+        print("Ingrese un numero de cuenta (negativo para finalizar): ")
         val numcuenta: Int = readln().toInt()
-        println("Ingrese el saldo actual: ")
-        val saldo: Double = readln().toDouble()
-        sum = sum + saldo
-    }while(numcuenta < 0)
-    if (saldo > 0)
-
-
+        if (numcuenta >= 0) {
+            print("Ingrese el saldo actual: ")
+            val saldo: Double = readln().toDouble()
+            if (saldo > 0.0) {
+                println("El estado de la cuenta con el numero $numcuenta es Acreedor")
+                sumacred += saldo
+            } else
+                if (saldo < 0.0) {
+                    println("El estado de la cuenta con el numero $numcuenta es Deudor")
+                } else
+                    if (saldo == 0.0) {
+                        println("El estado de la cuenta con el numero $numcuenta es Nulo")
+                    }
+        }
+    }while(numcuenta >= 0)
+    println("La suma de total de los saldos acreedores es $sumacred")
+     */
 }
