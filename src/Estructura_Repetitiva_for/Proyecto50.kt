@@ -1,7 +1,7 @@
 package Estructura_Repetitiva_for
 
 fun main() {
-    /*
+
     //Desarrollar un programa que cuente cuantos múltiplos de 3, 5 y 9 hay en el rango de
     //1 a 10000 (No se deben cargar valores por teclado)
     var mult3 = 0
@@ -18,5 +18,5 @@ fun main() {
     println("Cantidad de múltiplos de 3: $mult3")
     println("Cantidad de múltiplos de 5: $mult5")
     println("Cantidad de múltiplos de 9: $mult9")
-     */
+
 }

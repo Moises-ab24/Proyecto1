@@ -5,7 +5,7 @@ fun main(){
     //muestre posteriormente la suma de los valores ingresados y su promedio. Este
     //problema ya lo desarrollamos empleando el while, lo resolveremos empleando la
     //estructura repetitiva for.
-    /*
+
     var suma = 0
     for(i in 1..10) {
         print("Ingrese un valor:")
@@ -16,5 +16,5 @@ fun main(){
     val promedio = suma / 10
     println("Su promedio es $promedio")
 
-     */
+
 }
