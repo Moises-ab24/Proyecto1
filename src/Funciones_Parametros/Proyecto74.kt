@@ -1,7 +1,9 @@
 package Funciones_Parametros
-//Confeccionar una aplicación que muestre una presentación en pantalla del
-//programa. Solicite la carga de dos valores y nos muestre la suma.
-//Mostrar finalmente un mensaje de despedida del programa.
+/*
+Confeccionar una aplicación que muestre una presentación en pantalla del
+programa. Solicite la carga de dos valores y nos muestre la suma.
+Mostrar finalmente un mensaje de despedida del programa.
+ */
 
 fun mostrarMensaje(mensaje: String) {
     println("*************************************************")
@@ -20,10 +22,11 @@ fun main() {
     mostrarMensaje("El programa calcula la suma de dos valores ingresados por teclado.")
     cargarSumar()
     mostrarMensaje("Gracias por utilizar este programa")
-    //Ahora para resolver este pequeño problema hemos planteado una función llamada
-    //mostrarMensaje que recibe como parámetro un String (cadena de caracteres) y lo
-    //muestra en pantalla.
-    //Los parámetros van seguidos del nombre de la función encerrados entre paréntesis
-    //(y en el caso de tener más de un parámetro los mismos deben ir separados por
-    //coma
+/*
+Ahora para resolver este pequeño problema hemos planteado una función llamada
+mostrarMensaje que recibe como parámetro un String (cadena de caracteres) y lo
+muestra en pantalla. Los parámetros van seguidos del nombre de la función encerrados entre paréntesis
+(y en el caso de tener más de un parámetro los mismos deben ir separados por
+coma
+ */
 }

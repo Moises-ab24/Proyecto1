@@ -1,6 +1,8 @@
 package Funciones_Parametros
-//Desarrollar un programa que permita ingresar el lado de un cuadrado. Luego
-//preguntar si quiere calcular y mostrar su perímetro o su superficie.
+/*
+Desarrollar un programa que permita ingresar el lado de un cuadrado. Luego
+preguntar si quiere calcular y mostrar su perímetro o su superficie.
+ */
 
 fun mostrarPerimetro(lado: Int) {
     val perimetro = lado * 4

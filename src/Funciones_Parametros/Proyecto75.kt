@@ -1,13 +1,15 @@
 package Funciones_Parametros
-//Confeccionar una función que reciba tres enteros y nos muestre el mayor de ellos. La
-//carga de los valores hacerlo por teclado en la función main.
+/*
+Confeccionar una función que reciba tres enteros y nos muestre el mayor de ellos. La
+carga de los valores hacerlo por teclado en la función main.
+ */
 
 fun mostrarMayor(v1: Int, v2: Int, v3: Int) {
     print("Mayor:")
     if (v1 > v2 && v1 > v3)
         println(v1)
     else
-        if (v2 > v3)
+        if (v2 > v3 && v2 > v1)
             print(v2)
         else
             print(v3)

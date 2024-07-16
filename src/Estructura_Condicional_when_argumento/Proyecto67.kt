@@ -1,8 +1,10 @@
 package Estructura_Condicional_when_argumento
 
 fun main() {
-    //Ingresar un valor entero positivo comprendido entre 1 y 10000. Imprimir un mensaje
-    //indicando cuantos dígitos tiene.
+    /*
+    Ingresar un valor entero positivo comprendido entre 1 y 10000. Imprimir un mensaje
+    indicando cuantos dígitos tiene.
+    */
     print("Ingrese un valor entero positivo comprendido entre 1 y 99999:")
     val valor = readln().toInt()
     when (valor){

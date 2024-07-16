@@ -1,7 +1,9 @@
 package Concepto_Funciones
-//Desarrollar una función que solicite la carga de tres valores y muestre el
-//menor. Desde la función main del programa llamar 2 veces a dicha función (sin
-//utilizar una estructura repetitiva)
+/*
+Desarrollar una función que solicite la carga de tres valores y muestre el
+menor. Desde la función main del programa llamar 2 veces a dicha función (sin
+utilizar una estructura repetitiva)
+ */
 
 fun menor(){
     print("Ingrese el primer valor:")

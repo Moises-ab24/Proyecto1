@@ -1,8 +1,10 @@
 package Estructura_Condicional_when_argumento
 
 fun main() {
-    //Ingresar 10 valores enteros por teclado. Contar cuantos de dichos valores
-    //ingresados fueron cero y cuantos 1,5 o 10.
+    /*
+    Ingresar 10 valores enteros por teclado. Contar cuantos de dichos valores
+    ingresados fueron cero y cuantos 1,5 o 10.
+    */
     var cant1 = 0
     var cant2 = 0
     for(i in 1..10) {

@@ -1,8 +1,10 @@
 package Estructura_Repetitiva_for
 
 fun main() {
-    //Escribir un programa que lea 10 notas de alumnos y nos informe cuántos tienen
-    //notas mayores o iguales a 7 y cuántos menores.
+/*
+Escribir un programa que lea 10 notas de alumnos y nos informe cuántos tienen
+notas mayores o iguales a 7 y cuántos menores.
+ */
 
     var aprobados = 0
     var reprobados = 0

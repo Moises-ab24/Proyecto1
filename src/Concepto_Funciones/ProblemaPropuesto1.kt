@@ -1,8 +1,10 @@
 package Concepto_Funciones
-//Desarrollar un programa con dos funciones. La primer solicite el ingreso de un
-//entero y muestre el cuadrado de dicho valor. La segunda que solicite la carga
-//de dos valores y muestre el producto de los mismos. LLamar desde la main a
-//ambas funciones.
+/*
+Desarrollar un programa con dos funciones. La primer solicite el ingreso de un
+entero y muestre el cuadrado de dicho valor. La segunda que solicite la carga
+de dos valores y muestre el producto de los mismos. LLamar desde la main a
+ambas funciones.
+ */
 
 fun cuadrado(){
     print("Ingrese un numero entero:")

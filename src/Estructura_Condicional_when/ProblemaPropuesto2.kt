@@ -1,8 +1,10 @@
 package Estructura_Condicional_when
 
 fun main() {
-    //Plantear una estructura que se repita 5 veces y dentro de la misma cargar 3
-    //valores enteros. Acumular solo el mayor del cada lista de tres valores.
+/*
+Plantear una estructura que se repita 5 veces y dentro de la misma cargar 3
+valores enteros. Acumular solo el mayor del cada lista de tres valores.
+ */
     var mayor = 0
     for(i in 1..5){
         print("Ingrese el primer valor:")

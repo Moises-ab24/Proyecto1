@@ -11,8 +11,10 @@ fun main() {
         4 -> print("Cuatro")
         5 -> print("Cinco")
         else -> print("valor fuera de rango")
-        //Como vemos disponemos luego de la palabra clave when entre paréntesis una
-        //variable. Se verifica el contenido de la variable "valor" con cada uno de los datos
-        //indicados.
+        /*
+        Como vemos disponemos luego de la palabra clave when entre paréntesis una
+        variable. Se verifica el contenido de la variable "valor" con cada uno de los datos
+        indicados.
+        */
     }
 }

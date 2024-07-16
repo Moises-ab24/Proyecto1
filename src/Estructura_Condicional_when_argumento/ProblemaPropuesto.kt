@@ -1,8 +1,10 @@
 package Estructura_Condicional_when_argumento
 
 fun main() {
-    //Realizar la carga de la cantidad de hijos de 10 familias. Contar cuántos tienen
-    //0,1,2 o más hijos. Imprimir dichos contadores.
+/*
+Realizar la carga de la cantidad de hijos de 10 familias. Contar cuántos tienen
+0,1,2 o más hijos. Imprimir dichos contadores.
+*/
     var cant0 = 0
     var cant1 = 0
     var cant2 = 0

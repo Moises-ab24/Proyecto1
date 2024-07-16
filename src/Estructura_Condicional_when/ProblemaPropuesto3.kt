@@ -1,10 +1,12 @@
 package Estructura_Condicional_when
 
 fun main() {
-    // Realizar un programa que lea los lados de n triángulos, e informar:
-    //a) De cada uno de ellos, qué tipo de triángulo es: equilátero (tres lados
-    //iguales), isósceles (dos lados iguales), o escaleno (ningún lado igual)
-    //b) Cantidad de triángulos de cada tipo.
+/*
+Realizar un programa que lea los lados de n triángulos, e informar:
+a) De cada uno de ellos, qué tipo de triángulo es: equilátero (tres lados
+iguales), isósceles (dos lados iguales), o escaleno (ningún lado igual)
+b) Cantidad de triángulos de cada tipo.
+*/
     var equilatero = 0
     var isosceles = 0
     var escaleno = 0

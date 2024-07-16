@@ -2,8 +2,9 @@ package Estructura_Repetitiva_for
 
 fun main() {
 
-    //Desarrollar un programa que cuente cuantos múltiplos de 3, 5 y 9 hay en el rango de
-    //1 a 10000 (No se deben cargar valores por teclado)
+/*Desarrollar un programa que cuente cuantos múltiplos de 3, 5 y 9 hay en el rango de
+1 a 10000 (No se deben cargar valores por teclado)
+*/
     var mult3 = 0
     var mult5 = 0
     var mult9 = 0
