@@ -1,4 +1,4 @@
-package Funciones_Retorno_Datos
+package Funciones_Única_Expresión
 
 /*
 Confeccionar una función que le enviemos como parámetro un String y nos retorne la
@@ -7,9 +7,7 @@ nombres por teclado y llamar a la función dos veces. Imprimir en la main cual d
 dos palabras tiene más caracteres.
  */
 
-fun largo(nombre: String): Int {
-    return nombre.length
-}
+fun largo(nombre: String) = nombre.length
 
 fun main() {
     print("Ingrese un nombre:")
@@ -21,6 +19,6 @@ fun main() {
     else
         if (largo(nombre1) > largo(nombre2))
             print("$nombre1 es mas largo")
-    else
+        else
             print("$nombre2 es mas largo")
 }
