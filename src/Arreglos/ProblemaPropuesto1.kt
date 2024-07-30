@@ -24,11 +24,10 @@ fun main() {
     for (i in 0..enteros.size-1) {
         if (enteros[i] > 50)
             may50++
-        else
         if (enteros[i] > 36)
-        may36 += enteros[i]
+            may36 += enteros[i]
     }
     println("El valor acumulado es: $suma")
     println("El valor acumulado de los valores mayores a 36 es: $may36")
-    println("La cantdad de valores mayores a 50 es: $may50")
+    println("La cantidad de valores mayores a 50 es: $may50")
 }
