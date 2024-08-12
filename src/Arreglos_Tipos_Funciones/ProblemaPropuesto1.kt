@@ -19,4 +19,16 @@ fun crear(): IntArray {
     return arreglo
 }
 
+fun suma(arreglo: IntArray): Int {
+    var suma = 0
+    for (i in arreglo)
+        suma += i
+    return suma
+}
+
+fun main() {
+    var arreglo = cargar()
+    println("La suma de todos los elementos del arreglo es ${suma(arreglo)}")
+}
+
 
