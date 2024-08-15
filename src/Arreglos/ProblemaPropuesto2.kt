@@ -12,21 +12,20 @@ fun main() {
     val arreglo2: IntArray
     arreglo2 = IntArray(4)
     val arreglo3: IntArray
-    arreglo3 = IntArray(1)
-    var suma = 0
-    for (i in 0..arreglo1.size-1){
+    arreglo3 = IntArray(4)
+
+    for (i in 0..arreglo1.size-1) {
         print("Ingrese un valor entero del primer arreglo:")
         arreglo1[i] = readln().toInt()
-        suma += arreglo1[i]
     }
-
-    for (i in 0..arreglo2.size-1){
+    println("**************************************************")
+    for (i in 0..arreglo2.size-1) {
         print("Ingrese un valor entero del segundo arreglo:")
         arreglo2[i] = readln().toInt()
-        suma += arreglo2[i]
     }
-
+    println("**************************************************")
     for (i in 0..arreglo3.size-1) {
-        println("La suma de los 2 arreglos es $suma")
+        arreglo3[i] = arreglo1[i] + arreglo2[i]
+        println ("El resultado de ${arreglo1[i]} + ${arreglo2[i]} es: ${arreglo3[i]}")
     }
 }
