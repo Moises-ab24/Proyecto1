@@ -9,6 +9,7 @@ Definir otros tres métodos públicos que muestren el arreglo, el mayor y el men
 
 class clase {
     private val arre = IntArray(5)
+
     init {
         cargar()
     }
@@ -21,7 +22,7 @@ class clase {
     fun imprimir() {
         println("Lista del arreglo")
         for(i in arre.indices)
-            println("-${arre[i]}")
+            println("'${arre[i]}'")
     }
 
     fun mayor() {
@@ -41,9 +42,9 @@ class clase {
     }
 }
 
-fun main(parametro: Array<String>) {
-    val vector1 = clase()
-    vector1.imprimir()
-    vector1.mayor()
-    vector1.menor()
+fun main() {
+    val arreglo = clase()
+    arreglo.imprimir()
+    arreglo.mayor()
+    arreglo.menor()
 }
