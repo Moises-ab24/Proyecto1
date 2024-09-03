@@ -10,7 +10,7 @@ Codificar el método imprimir en la clase.
 class empleado (var nombre: String, sueldo: Double){
     var sueldo: Double = 0.0
         set(valor) {
-            if (valor < 0)
+            if (valor < 0.0)
                 field = 0.0
             else
                 field = valor

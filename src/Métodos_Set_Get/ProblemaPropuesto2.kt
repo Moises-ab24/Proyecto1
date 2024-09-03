@@ -24,7 +24,8 @@ class dado(valor: Int) {
     }
 
     fun tirar() {
-        valor = ((Math.random() * 6) + 1).toInt()
+        valor = ((Math.random() * 7)).toInt()
+        imprimir()
     }
 
     fun imprimir() {
@@ -35,5 +36,4 @@ fun main() {
     val dado1 = dado(7)
     dado1.imprimir()
     dado1.tirar()
-    dado1.imprimir()
 }

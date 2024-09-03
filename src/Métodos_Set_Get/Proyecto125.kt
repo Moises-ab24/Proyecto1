@@ -12,7 +12,7 @@ class Persona {
     var nombre: String = ""
     set(valor){ //Set declara un valor
         field = valor.toUpperCase() //Field señala una variable
-    }
+    }                               //toUpperCase se utiliza para texto en mayusculas
     get(){ //Get retorna el valor
         return "("+field+")"
     }
@@ -26,7 +26,7 @@ class Persona {
 }
 fun main(){
     val persona1 = Persona()
-    persona1.nombre = "juan"
+    persona1.nombre = "juan "
     persona1.edad = 23
     println(persona1.nombre) //Se imprime: (JUAN)
     println(persona1.edad) //Se imprime: 23
