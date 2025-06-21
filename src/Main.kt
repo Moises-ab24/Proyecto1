@@ -26,4 +26,15 @@ fun main() {
 
     // variable tipo boolean true / false
     var fin: Boolean = false
+    // sin ! es true
+    // con ! es false
+
+    // variable tipo Any cualquier cosa
+    fun result(value: Any){
+        when(value){
+            is Int -> value + value
+            is String -> println(value)
+            is Boolean -> if (value) print("Hola")
+        }
+    }
 }
